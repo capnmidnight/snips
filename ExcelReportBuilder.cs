@@ -4,7 +4,6 @@ using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Reflection;
-using XLGroup.ClaritySM.Data;
 using Microsoft.Office.Interop.Excel;
 
 namespace XLGroup.ClaritySM
