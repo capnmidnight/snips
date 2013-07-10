@@ -6,7 +6,7 @@ using System.Text;
 using System.Reflection;
 using Microsoft.Office.Interop.Excel;
 
-namespace XLGroup.ClaritySM
+namespace Snips
 {
     public class ExcelReportBuilder : IDisposable
     {
