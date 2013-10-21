@@ -7,18 +7,29 @@ is not meant to be carbonated like cider.
 # Ingredients
 =============
 5 gallons unfiltered apple juice
+15 lbs brown sugar
+3 apples, cored and shredded (but not skinned)
+2 pears, cored and shredded
+2 plums, cored and shredded
+1 cheese cloth bag
 1 pack champagne yeast
-1 tbsp nutmeg
-1 tbsp cinnamon
-1 tbsp ground clove
-24, 750 ml wine bottles (two cases)
+1 gallon pure cranberry juice, no sugar added
+32, 750 ml wine bottles (two cases)
+32, 8x1 3/4 corks
 
-Ferment in carboy until yeast gives up, about 1.5 weeks.
+Dissolve brown sugar in apple juice. Heat if necessary.
+Fill the bag with shredded fruit. 
+Ferment apple in plastic bucket with removable lid, with bag hanging in juice, retrievable. 
+Daily, open lid and squeeze juice out of fruit. 
+Ferment until yeast gives up, about 2 weeks.
+Add cranberry juice after fermenting.
 
 # Notes
 =======
 * You lose a small amount to yeast trub when bottling, about half a bottle.
-* The spices did not contribute any flavor.
-* The cinnamon contributed some smell, but it seemed changed in some way and it was not pleasant.
-* Apple juice on its own doesn't have a lot of sugar. This attenuated completely, was very dry and not very alcoholic
-* Alcohol estimated at 4.5%
+* The displacement of the fruit pushed some of the juice out of the air lock. It molded in the air lock, but the batch luckily did not spoil.
+* The yeast gave up before the must fully attenuated. 15lbs of sugar was more than enough.
+* The wine was extremely sweet, still thick like syrup, and very alcoholic.
+* There was also a hot flavor, acetyls due to yeast stress.
+* The cranberry was not originally planned, but it was necessary to cut the sweetness of the beverage.
+* Caused severe hangovers.
