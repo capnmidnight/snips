@@ -15,16 +15,19 @@ is not meant to be carbonated like cider.
 * 32, 750 ml wine bottles (two cases)
 * 32, 8x1 3/4 corks
 
-Begin a yeast starter of yeast nutrient, 2 cups apple juice, and yeast
-Dissolve sugar in apple juice over heat.
-Siphon must out of pot through sink full of ice water into bottling bucket.
-Dissolve pectic enzyme and amylase enzyme in must in separate container, mix in to bottling bucket.
-Let set for 1 hour.
-Pitch yeast.
-Ferment apple in carboy until yeast gives up, about 5 weeks.
-Add pomegranate juice and potassium sorbate to bottling bucket.
-Siphon wine out of carboy into bottling bucket.
-Bottle
+# Preferment
+* Begin a yeast starter of yeast nutrient, 2 cups apple juice, and yeast
+* Dissolve sugar in apple juice over heat.
+* Siphon must out of pot through sink full of ice water into bottling bucket.
+* Dissolve pectic enzyme and amylase enzyme in small amount of must in separate container, mix in to bottling bucket.
+* Let set for 1 hour.
+* Pitch yeast.
+* Ferment apple in carboy until yeast gives up, about 5 weeks.
+
+# Postferment
+* Add pomegranate juice and potassium sorbate to bottling bucket.
+* Siphon wine out of carboy into bottling bucket.
+* Bottle
 
 # Notes
 * O.G.:  1.114 @ 77F. 
