@@ -4,16 +4,16 @@ alcohol content and a pleasant but complex flavor. This apple wine
 is not meant to be carbonated like cider.
 
 # Ingredients
-5 gallons unfiltered, pasteurized apple juice
-10 lbs demerara sugar
-1 pack dry champagne yeast
-1 gallon pure pomegranate juice, no sugar added
-1 heaping Tbs pectic enzym
-1 tsp amylase enzyme
-5 tsp yeast nutrient
-1 Tbsp potassium sorbate
-32, 750 ml wine bottles (two cases)
-32, 8x1 3/4 corks
+* 5 gallons unfiltered, pasteurized apple juice
+* 10 lbs demerara sugar
+* 1 pack dry champagne yeast
+* 1 gallon pure pomegranate juice, no sugar added
+* 1 heaping Tbs pectic enzym
+* 1 tsp amylase enzyme
+* 5 tsp yeast nutrient
+* 1 Tbsp potassium sorbate
+* 32, 750 ml wine bottles (two cases)
+* 32, 8x1 3/4 corks
 
 Begin a yeast starter of yeast nutrient, 2 cups apple juice, and yeast
 Dissolve sugar in apple juice over heat.
