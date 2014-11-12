@@ -1,11 +1,9 @@
 # Overview
-==========
 A basic recipe for making wine out of apple juice. The emphasis is on 
 alcohol content and a pleasant but complex flavor. This apple wine
 is not meant to be carbonated like cider.
 
 # Ingredients
-=============
 5 gallons unfiltered, pasteurized apple juice
 10 lbs demerara sugar
 1 pack dry champagne yeast
@@ -29,7 +27,6 @@ Siphon wine out of carboy into bottling bucket.
 Bottle
 
 # Notes
-=======
 * O.G.:  1.114 @ 77F. 
 * F.G.: 1.002 @ 70F.
 * You lose a small amount to yeast trub when bottling, about a bottle.
