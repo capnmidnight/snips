@@ -6,26 +6,36 @@ is not meant to be carbonated like cider.
 
 # Ingredients
 =============
-5 gallons unfiltered apple juice
-5 lbs belgian candi sugar
-1 slap-pack cider/ale/wine yeast
-1 gallon pure cranberry juice, no sugar added
-8, 12oz jars of frozen apple juice concentrate
-33, 750 ml wine bottles (two cases)
-33, 9x1 3/4 corks
+5 gallons unfiltered, pasteurized apple juice
+10 lbs demerara sugar
+1 pack dry champagne yeast
+1 gallon pure pomegranate juice, no sugar added
+1 heaping Tbs pectic enzym
+1 tsp amylase enzyme
+5 tsp yeast nutrient
+1 Tbsp potassium sorbate
+32, 750 ml wine bottles (two cases)
+32, 8x1 3/4 corks
 
-Dissolve sugar in apple juice. Heat if necessary.
-Ferment apple in carboy until yeast gives up, about 2 weeks.
-Add cranberry juice and apple juice concentrate after fermenting.
+Begin a yeast starter of yeast nutrient, 2 cups apple juice, and yeast
+Dissolve sugar in apple juice over heat.
+Siphon must out of pot through sink full of ice water into bottling bucket.
+Dissolve pectic enzyme and amylase enzyme in must in separate container, mix in to bottling bucket.
+Let set for 1 hour.
+Pitch yeast.
+Ferment apple in carboy until yeast gives up, about 5 weeks.
+Add pomegranate juice and potassium sorbate to bottling bucket.
+Siphon wine out of carboy into bottling bucket.
+Bottle
 
 # Notes
 =======
-* You lose a small amount to yeast trub when bottling, about half a bottle.
-* The wine fully attenuated. 5lbs of sugar was not enough.
-* The wine was quite dry, and the yeast had an overbearing flavor.
-* O.G. read 1.090 at 70F. F.G. was 0.995 at 70F. Alcohol estimated at 12.5% ABV before adding cranberry and concentrate. Final estimate: 10.5% ABV.
+* You lose a small amount to yeast trub when bottling, about a bottle.
+* The wine was slightly sweet, with very little yeast flavor. 10 lbs demerara was good.
+* The pectic enzyme made it extremely clear. I've never had a clearer batch, even when using finings.
+* O.G. read 1.114 at 77F. F.G. was 1.002 at 70F. Alcohol estimated at 16.1% ABV before adding pomegranate. Final estimate: 13.4% ABV.
 * There is no alcohol flavor at all. 
-* The cranberry helped to cut the yeast flavor.
-* The juice concentrate resweetened the drink well.
-* But overall, it's a very simple-flavored drink
+* The pomegrante is not a very strong flavor, but quite sweet on its own. It tends to overpower the apple.
+* Overall, it's a very simple-flavored drink
+* Two glasses made for a very clear-headed, but quite drunk feeling.
 * No hangover data as of yet.
