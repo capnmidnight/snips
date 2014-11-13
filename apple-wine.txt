@@ -7,17 +7,24 @@ is not meant to be carbonated like cider.
 # Ingredients
 =============
 5 gallons unfiltered apple juice
-10 lbs sugar-in-the-raw
+10 lbs Zulka Morena pure cain sugar
+1 pack champagne yeast
 1 gallon pure cranberry juice, no sugar added
-29, 750 ml wine bottles (two cases)
-29, 8x1 3/4 corks
+32, 750 ml wine bottles (two cases)
+32, 8x1 3/4 corks
 
-Dissolve sugar in apple juice. Heat if necessary.
+Start yeast starter with 2 cups apple juice and yeast.
+Dissolve sugar in apple juice over heat. 
+Allow to chill to N degrees F.
 Ferment apple in carboy until yeast gives up, about 2 weeks.
 Add cranberry juice after fermenting.
 
+
 # Notes
 =======
+* Must hit 120F, cooled to 100F while siphoning through ice bath in sink.
+* O.G.: 1.118 @ 72 F
+* F.G.: 
 * You lose a small amount to yeast trub when bottling, about half a bottle.
 * The yeast gave up before the must fully attenuated. 10lbs of sugar was more than enough.
 * The wine was very sweet, though not as bad as before, and very alcoholic.
