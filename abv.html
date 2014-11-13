@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>ABV calculations</title>
+<script type="text/javascript">
+// Convert degrees Farenheit to degrees Celsius
+function F2C(f){
+    return (f - 32) / 1.8;
+}
+
+// Convert degrees Celsius to degrees Farenheit
+function C2F(c){
+    return c * 1.8 + 32;
+}
+
+
+// Hydrometers are calibrated to read plain water as 1.000 at a specific temperature.
+// The best thing to do would be to verify that your hydrometer works as expected and
+// find out for yourself at what temperature it reads 1.000 for h2o. But that seem
+// boring and we're just going to force you to guess it's 68F.
+//
+// Yes, the temperatures need to be in degrees Farenheit. I didn't make the rules.
+//
+// parameters:
+//	`g`: gravity reading
+//	`t`: temperature of liquid at reading (in degrees F)
+//	`c`: the hydrometer's calibration temperature (in degrees F)
+
+function convertG(g, t, c){
+    return g * ((1.00130346 - 0.000134722124 * t + 0.00000204052596 * t * t - 0.00000000232820948 * t * t * t) 
+        / (1.00130346 - 0.000134722124 * c + 0.00000204052596 * c * c - 0.00000000232820948 * c * c * c));
+}
+
+
+// Calculate the estimated alcohol content by volume. This function expects the
+// original and final gravity values to corrected for temperature.
+function ABV(og, fg){
+    return (76.08 * (og - fg) / (1.775 - og)) * (fg / 79.4);
+}
+
+// Determine the final ABV, given a set volume, an ABV, and an amount to add without alcohol.
+function cutABV(v, dv, abv){
+    return (v * abv) / (v + dv);
+}
+
+function calculate(){
+    var og = parseFloat(document.getElementById("og").value);
+    var ogt = parseInt(document.getElementById("ogt").value);
+    var fg = parseFloat(document.getElementById("fg").value);
+    var fgt = parseInt(document.getElementById("fgt").value);
+    var calt = parseInt(document.getElementById("calt").value);
+    var vol = parseFloat(document.getElementById("vol").value);
+    var cut = parseFloat(document.getElementById("cut").value);
+    var units = document.getElementById("units").value;
+    var abv = document.getElementById("abv");
+    if(units === "C"){
+        ogt = C2F(ogt);
+        fgt = C2F(fgt);
+    }
+    var v = (0.1 * Math.round(1000 * cutABV(vol, cut, ABV(
+        convertG(og, ogt, calt),
+        convertG(fg, fgt, calt)
+    )))) + "";
+    var i = Math.min(v.length, v.indexOf(".") + 2);
+    if(i < 0){
+        i = v.length;
+    }
+    abv.innerHTML = v.substring(0, i);
+}
+</script>
+</head>
+<body>
+    <form name="form" id="form">
+        <h1>ABV Calculator</h1>
+        <input type="text" placeholder="<og>" id="og">
+        <input type="text" placeholder="<og temp>" id="ogt"><br>
+        <input type="text" placeholder="<fg>" id="fg">
+        <input type="text" placeholder="<fg temp>" id="fgt"><br>
+        <input type="text" placeholder="<hydro cal temp>" id="calt"><br>
+        <input type="text" placeholder="<vol>" id="vol">
+        <input type="text" placeholder="<cut>" id="cut"><br>
+        <select id="units">
+            <option value="F">Farenheit</option>
+            <option value="C">Celsius</option>
+        </select><br>
+        <button type="button" onclick="calculate()">calculate</button><br>
+        <span id="abv">???</span>%
+    </form>
+</body>
+</html>
