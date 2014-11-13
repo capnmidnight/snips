@@ -22,13 +22,17 @@ function C2F(c){
 // Yes, the temperatures need to be in degrees Farenheit. I didn't make the rules.
 //
 // parameters:
-//	`g`: gravity reading
-//	`t`: temperature of liquid at reading (in degrees F)
-//	`c`: the hydrometer's calibration temperature (in degrees F)
-
+//  `g`: gravity reading
+//  `t`: temperature of liquid at reading (in degrees F)
+//  `c`: the hydrometer's calibration temperature (in degrees F)
+function K(t){
+    return 1.00130346
+        - 0.000134722124 * t
+        + 0.00000204052596 * t * t
+        - 0.00000000232820948 * t * t * t;
+}
 function convertG(g, t, c){
-    return g * ((1.00130346 - 0.000134722124 * t + 0.00000204052596 * t * t - 0.00000000232820948 * t * t * t) 
-        / (1.00130346 - 0.000134722124 * c + 0.00000204052596 * c * c - 0.00000000232820948 * c * c * c));
+    return g * K(t) / K(c);
 }
 
 
@@ -43,14 +47,22 @@ function cutABV(v, dv, abv){
     return (v * abv) / (v + dv);
 }
 
+function F(id){
+    return parseFloat(document.getElementById(id).value);
+}
+
+function I(id){
+    return parseInt(document.getElementById(id).value);
+}
+
 function calculate(){
-    var og = parseFloat(document.getElementById("og").value);
-    var ogt = parseInt(document.getElementById("ogt").value);
-    var fg = parseFloat(document.getElementById("fg").value);
-    var fgt = parseInt(document.getElementById("fgt").value);
-    var calt = parseInt(document.getElementById("calt").value);
-    var vol = parseFloat(document.getElementById("vol").value);
-    var cut = parseFloat(document.getElementById("cut").value);
+    var og = F("og");
+    var ogt = I("ogt");
+    var fg = F("fg");
+    var fgt = I("fgt");
+    var calt = I("calt");
+    var vol = F("vol");
+    var cut = F("cut");
     var units = document.getElementById("units").value;
     var abv = document.getElementById("abv");
     if(units === "C"){
