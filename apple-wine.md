@@ -32,10 +32,10 @@ is not meant to be carbonated like cider.
 # Notes
 * O.G.:  1.114 @ 77F. 
 * F.G.: 1.002 @ 70F.
+* Alcohol estimated at 16.1% ABV before adding pomegranate. Final estimate: 13.4% ABV.
 * You lose a small amount to yeast trub when bottling, about a bottle.
 * The wine was slightly sweet, with very little yeast flavor. 10 lbs demerara was good.
 * The pectic enzyme made it extremely clear. I've never had a clearer batch, even when using finings.
-* Alcohol estimated at 16.1% ABV before adding pomegranate. Final estimate: 13.4% ABV.
 * There is no alcohol flavor at all. 
 * The pomegrante is not a very strong flavor, but quite sweet on its own. It tends to overpower the apple.
 * Overall, it's a very simple-flavored drink
